@@ -1,12 +1,14 @@
 ## Reciprocal Lattice Animation
 
 The *reciprocal lattice* of a given lattice is the Fourier transform this given lattice<br>
-This project is a live visualization tool developed in **Python** that helps the user understanding the way the:
+This project is a live visualization tool developed in **Python** that helps the user understanding how the:
 <ul>
   <li> Direct Lattice (also real space) </li>
   <li> Reciprocal Lattice (also Fourir space) </li>
 </ul>
 are related together.
+<br>
+The interactivity is based on **event-driven** programming using *matplotlib*.
 
 ### Reciprocal Lattice
 Definition:
