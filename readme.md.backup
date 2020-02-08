@@ -1,25 +1,24 @@
 ## Reciprocal Lattice Animation
 
-The *reciprocal lattice* of a given lattice is the Fourier transform of this given lattice.<br>
+The *reciprocal lattice* of a given lattice is the Fourier transform this given lattice<br>
 This project is a live visualization tool developed in **Python** that helps the user understanding how the:
 <ul>
   <li> Direct Lattice (also real space) </li>
-  <li> Reciprocal Lattice (also Foureir space) </li>
+  <li> Reciprocal Lattice (also Fourir space) </li>
 </ul>
 are related together.
 <br>
+The interactivity is based on **event-driven** programming using *matplotlib*.
 
-The interactivity is based on **event driven** programming using *matplotlib*.
-
-### Definition a the Reciprocal Lattice
-
+### Reciprocal Lattice
+Definition:
 Given a set <br>
 <img src="https://render.githubusercontent.com/render/math?math=\{\bf{r}_j\} \, j=1..N">
 <br>
 of basis vectors,
 the *Bravais Lattice* is the set of all integer linear combinaisons of the form
 <br>
-<img src="https://render.githubusercontent.com/render/math?math=\{\bf{R}_j=n_1 \bf{r}_1 %2B n_2 \bf{r}_2 %2B \ldots \quad  \forall n_1,n_2,\ldots \in \mathbb{Z} \}">
+<img src="https://render.githubusercontent.com/render/math?math=\{\bf{R}_j=n_1 \bf{r}_1 + n_2 \bf{r}_2 + \ldots \quad  \forall n_1,n_2 \in \mathbb{Z} \}">
 <br>
 The *reciprocal lattice* of this lattice is the set of all vectors <img src="https://render.githubusercontent.com/render/math?math=\bf{K}"> that verifies <br>
 <img src="https://render.githubusercontent.com/render/math?math=e^{i\bf{K}\cdot\bf{R}}=1 \quad \forall \bf{R} \in \textrm{Real Space}">
